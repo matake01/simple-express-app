@@ -1,0 +1,38 @@
+{
+  "name": "simple-express-app",
+  "description": "This project is a simple boilerplate template to get started with test-driven JavaScript app development.",
+  "version": "1.0.0",
+  "main": "app/main.js",
+  "scripts": {
+    "start": "node app/main.js",
+    "test": "npm run lint && npm run jest",
+    "jest": "jest --coverage app/__tests__/*.test.js",
+    "lint": "eslint app/**",
+    "prettier": "prettier --write app/*.js app/**/__{tests,mocks}__/*.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cookie-parser": "^1.4.0",
+    "debug": "^2.2.0",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0",
+    "pug": "^2.0.0-beta6",
+    "serve-favicon": "^2.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.12.1",
+    "jest": "^21.2.1",
+    "supertest": "~3.0.0",
+    "prettier": "^1.9.1"
+  },
+  "engines": {
+    "node": "~6.10.x"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "verbose": true
+  },
+  "prettier": {
+    "singleQuote": true
+  }
+}
