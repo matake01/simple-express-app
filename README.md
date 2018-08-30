@@ -30,3 +30,18 @@ Running following command will execute Lint/Jest tests and produce coverage repo
 ```
 npm test
 ```
+
+## Build and run with Docker
+
+
+Build your image:
+
+```
+docker build --rm=false -t app .
+```
+
+Run the image:
+
+```
+docker run --rm -p 3000:3000 app
+```
