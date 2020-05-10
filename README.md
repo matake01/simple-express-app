@@ -1,6 +1,6 @@
-# simple-express-app-demo
+# simple-express-app
 
-This project is a simple boilerplate template to get started with test-driven JavaScript app development.
+A simple template JS app.
 
 ## Requirements
 
